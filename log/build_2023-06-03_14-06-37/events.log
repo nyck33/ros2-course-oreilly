@@ -1,0 +1,54 @@
+[0.000000] (-) TimerEvent: {}
+[0.007626] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.007683] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.007702] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.112551] (-) TimerEvent: {}
+[0.222392] (-) TimerEvent: {}
+[0.341089] (-) TimerEvent: {}
+[0.457904] (-) TimerEvent: {}
+[0.567141] (-) TimerEvent: {}
+[0.698535] (-) TimerEvent: {}
+[0.804913] (-) TimerEvent: {}
+[0.922646] (-) TimerEvent: {}
+[1.023809] (-) TimerEvent: {}
+[1.130023] (-) TimerEvent: {}
+[1.235927] (-) TimerEvent: {}
+[1.361273] (-) TimerEvent: {}
+[1.481895] (-) TimerEvent: {}
+[1.589511] (-) TimerEvent: {}
+[1.704886] (-) TimerEvent: {}
+[1.811488] (-) TimerEvent: {}
+[1.866708] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/nyck33/ros2_ws/build/my_py_pkg/build', 'install', '--record', '/home/nyck33/ros2_ws/build/my_py_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/nyck33/ros2_ws/src/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nyck33', 'LC_TIME': 'ja_JP.UTF-8', 'GIO_MODULE_DIR': '/home/nyck33/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/nyck33', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/nyck33', 'TERM_PROGRAM_VERSION': '1.78.2', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/129/usr/lib/x86_64-linux-gnu/gtk-3.0', 'GTK_IM_MODULE_FILE': '/home/nyck33/snap/code/common/.cache/immodules/immodules.cache', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'SYSTEMD_EXEC_PID': '1759', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nyck33/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'nyck33', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nyck33', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/nyck33-VB-Ubu22ROS:@/tmp/.ICE-unix/1710,unix/nyck33-VB-Ubu22ROS:/tmp/.ICE-unix/1710', 'GTK_EXE_PREFIX': '/snap/code/129/usr', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/be751c1b_1a46_4543_b128_1c179896941f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/129/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.QXDV51', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.158', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/nyck33/snap/code/129/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/nyck33/ros2_ws/install/my_py_pkg:/home/nyck33/ros2_ws/install/my_cpp_pkg:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nyck33/ros2_ws/build/my_py_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/nyck33/snap/code/129/.local/share:/home/nyck33/snap/code/129:/snap/code/129/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nyck33/ros2_ws/build/my_py_pkg/prefix_override:/home/nyck33/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/nyck33/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/nyck33/ros2_ws/install/my_cpp_pkg'}, 'shell': False}
+[1.925081] (-) TimerEvent: {}
+[2.026466] (-) TimerEvent: {}
+[2.136442] (-) TimerEvent: {}
+[2.244052] (-) TimerEvent: {}
+[2.367731] (-) TimerEvent: {}
+[2.485794] (-) TimerEvent: {}
+[2.516434] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.518556] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[2.519375] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[2.521129] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[2.523312] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[2.523972] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[2.531031] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[2.533593] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[2.534613] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[2.534747] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[2.541596] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/my_first_node.py -> /home/nyck33/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[2.542473] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[2.545165] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.557377] (my_py_pkg) StdoutLine: {'line': b'copying /home/nyck33/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/nyck33/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[2.575157] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/nyck33/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc\n'}
+[2.575342] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[2.575392] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.576009] (my_py_pkg) StdoutLine: {'line': b"removing '/home/nyck33/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.576082] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/nyck33/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[2.576126] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.590136] (-) TimerEvent: {}
+[2.625966] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/nyck33/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[2.626844] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/nyck33/ros2_ws/build/my_py_pkg/install.log'\n"}
+[2.712043] (-) TimerEvent: {}
+[2.743645] (my_py_pkg) CommandEnded: {'returncode': 0}
+[2.777336] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[2.779496] (-) EventReactorShutdown: {}
