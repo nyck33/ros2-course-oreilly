@@ -1,0 +1,4 @@
+[01m[K/home/nyck33/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nyck33/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:21:5:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[Krclcpp[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-label-Wunused-label]8;;[m[K]
+   21 |     [01;35m[Krclcpp[m[K:spin(node);
+      |     [01;35m[K^~~~~~[m[K
